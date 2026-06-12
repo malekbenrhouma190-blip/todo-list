@@ -1,0 +1,88 @@
+.style {
+  height: 110vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+h1 {
+  color: #000000;
+  margin-bottom: 12.5px;
+  font-size: 55px;
+  font-weight:800px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+form {
+  background-color:rgba(255, 255, 255, 0.351);
+  padding: 20px;
+  width:450px;
+  height: 70%;
+  border-radius: 10px;
+  box-shadow: 0 10px 17.5px rgba(0, 0, 0, 0.396);
+  text-align: center;
+}
+
+h3{
+  color: #000;
+  font-size: 17.5px;
+  margin-top: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: underline;
+}
+
+h2 {
+  margin-top:auto;
+  color: #000000;
+  font-weight: 400px;
+  font-size:25px;
+  font-family:'Times New Roman', Times, serif;
+}
+
+#input {
+  width:325px;
+  height: 40px;
+  padding: 7px;
+  margin-top: -5px;
+  margin-left: 6px;
+  font-size: 15px;
+  border-radius:20px;
+  border-color: #000000;
+  background: #fcfcff;
+  box-shadow: 0 0 0 3px rgba(59,130,246,0.1);
+  transition: all 0.2s ease;
+}
+
+#connect{
+  margin-top: 10px;
+  width: 35%;
+  height: 10%;
+  padding: 7px;
+  font-size: 15px;
+  background:linear-gradient(135deg,#0b3037f5,#134e5ecf);
+  color: #ffffff;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+p{
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: underline;
+  color: #000;
+}
+
+.error-message {
+  color: #d32f2f;
+  font-size: 12.5px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: oblique;
+  font-weight: bold;
+  text-decoration: none;
+}

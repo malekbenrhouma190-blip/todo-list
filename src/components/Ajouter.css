@@ -1,0 +1,127 @@
+body{
+  background: linear-gradient(135deg,#89a5baf5,#becadb);
+  justify-content: center;
+}
+
+.style2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+#form2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 10px;
+  justify-content: center;
+  width: 500px;
+  height: 500px;
+}
+
+fieldset {
+  border: none;
+  border-radius: 10px;
+  padding: 15px 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.101);
+  width: 350px;
+  margin: 0 auto;
+}
+
+#h1{
+  color: #000000;
+  margin-bottom: 12px;
+  font-size: 50px;
+  font-weight: 800;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  text-decoration: underline;
+}
+
+input {
+  width: 350px;
+  padding: 7px;
+  margin: 6px 0;
+  font-size: 15px;
+  border-radius: 7px;
+  border-color: #000000;
+  background: #fcfcff;
+  box-shadow: 0 0 0 2px rgba(59,130,246,0.1);
+  transition: all 0.2s ease;
+}
+
+input:focus {
+  outline: none;
+  border-color: #000000;
+  background: #ddddfe;
+}
+
+button{
+  margin-top: 10px;
+  width: 105px;
+  height: 50px;
+  padding: 7px;
+  font-size: 17px;
+  background: linear-gradient(135deg,#0b3037f5,#0b252ccf);
+  color: #ffffff;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+#enregister:hover{
+  background: linear-gradient(135deg, #2828bdef, #0a203d);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.751);
+}
+
+#annuler:hover{
+  background: linear-gradient(135deg, #e73939ef, #df0303);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.751);
+}
+
+label{
+  font-size: 20px;
+  font-family: garamond, serif;
+  font-weight: bold;
+  color: #000000;
+}
+
+select {
+  padding: 4px 6px;
+  border-radius: 10px;
+  border: 1px solid #000000;
+  background: white;
+  cursor: pointer;
+  width: 375px;
+  height: 35px;
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+select:hover{
+  border-color: #000000;
+  background: #ddddfe;
+}
+
+#haute,
+#moyenne,
+#basse,
+#faire,
+#cours,
+#termine,
+#annule {
+  font-size: 15px;
+}
+
+/* dark mode */
+.dark #form2{
+  background-color: transparent;
+}
+
+.dark #h1{
+  color: #ffffff;
+}
