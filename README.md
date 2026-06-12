@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -14,3 +15,29 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+=======
+# todo-list
+A frontend Todo List application buit with React with full CRUD functionality, LocalStorage persistence, and Dark Mode support.
+
+##  Features
+
+- Add new tasks
+- Edit existing tasks
+- Delete tasks
+- Filter taskes
+- Mark tasks as completed
+- Data saved in LocalStorage (persists after refresh)
+- Dark / Light mode toggle
+---
+
+
+## Technologies
+- React
+- JavaScript
+- CSS
+
+## How to run
+```bash
+npm install
+npm run dev
+>>>>>>> ad0eebeefd2fc41e849ec8ef39e7101816981e7b
